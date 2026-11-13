@@ -21,7 +21,7 @@ from outlier_detection import (
     filter_outliers,
     winsorize_dataframe
 )
-from src.crop_analytics import (
+from crop_analytics import (
     compute_kpi_summary,
     compute_annual_crop_trends,
     compute_crop_leaderboard,
