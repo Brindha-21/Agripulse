@@ -28,13 +28,13 @@ from crop_analytics import (
     compute_state_performance,
     compute_seasonal_breakdown
 )
-from src.rainfall_analytics import (
+from rainfall_analytics import (
     compute_rainfall_climatology,
     compute_annual_rainfall_anomalies,
     compute_crop_rainfall_correlations,
     compute_state_rainfall_profiles
 )
-from src.crop_comparison import (
+from crop_comparison import (
     compare_selected_crops,
     compute_normalized_comparison_matrix
 )
