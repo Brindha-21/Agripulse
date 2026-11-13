@@ -113,9 +113,14 @@ st.markdown("""
 
 # Helper Paths
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
-DATA_DIR = os.path.join(BASE_DIR, 'data')
-RAW_DATA_PATH = os.path.join(DATA_DIR, 'crop_production_rainfall_raw.csv')
-CLEAN_DATA_PATH = os.path.join(DATA_DIR, 'crop_production_rainfall_clean.csv')
+
+RAW_DATA_PATH = os.path.join(
+    BASE_DIR, 'crop_production_rainfall_raw.csv'
+)
+
+CLEAN_DATA_PATH = os.path.join(
+    BASE_DIR, 'crop_production_rainfall_clean.csv'
+)
 
 
 # Data Loader with Caching
