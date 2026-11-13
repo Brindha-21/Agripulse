@@ -13,7 +13,7 @@ import pandas as pd
 import numpy as np
 
 # Import internal modules
-from src.data_cleaning import audit_data_quality, clean_pipeline
+from data_cleaning import audit_data_quality, clean_pipeline
 from src.outlier_detection import (
     detect_outliers_isolation_forest,
     detect_outliers_lof,
